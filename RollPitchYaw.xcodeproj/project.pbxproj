@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B8C60FD191522D2009F4AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8C60FC191522D2009F4AD3 /* Foundation.framework */; };
+		3B8C60FF191522D2009F4AD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8C60FE191522D2009F4AD3 /* CoreGraphics.framework */; };
+		3B8C6101191522D2009F4AD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8C6100191522D2009F4AD3 /* UIKit.framework */; };
+		3B8C6107191522D2009F4AD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B8C6105191522D2009F4AD3 /* InfoPlist.strings */; };
+		3B8C6109191522D2009F4AD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8C6108191522D2009F4AD3 /* main.m */; };
+		3B8C610D191522D2009F4AD3 /* RPYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8C610C191522D2009F4AD3 /* RPYAppDelegate.m */; };
+		3B8C6110191522D2009F4AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8C610E191522D2009F4AD3 /* Main.storyboard */; };
+		3B8C6113191522D2009F4AD3 /* RPYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8C6112191522D2009F4AD3 /* RPYViewController.m */; };
+		3B8C6115191522D2009F4AD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8C6114191522D2009F4AD3 /* Images.xcassets */; };
+		3B8C611C191522D2009F4AD3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8C611B191522D2009F4AD3 /* XCTest.framework */; };
+		3B8C611D191522D2009F4AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8C60FC191522D2009F4AD3 /* Foundation.framework */; };
+		3B8C611E191522D2009F4AD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8C6100191522D2009F4AD3 /* UIKit.framework */; };
+		3B8C6126191522D2009F4AD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B8C6124191522D2009F4AD3 /* InfoPlist.strings */; };
+		3B8C6128191522D2009F4AD3 /* RollPitchYawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8C6127191522D2009F4AD3 /* RollPitchYawTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B8C611F191522D2009F4AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8C60F1191522D2009F4AD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B8C60F8191522D2009F4AD3;
+			remoteInfo = RollPitchYaw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B8C60F9191522D2009F4AD3 /* RollPitchYaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollPitchYaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8C60FC191522D2009F4AD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B8C60FE191522D2009F4AD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B8C6100191522D2009F4AD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B8C6104191522D2009F4AD3 /* RollPitchYaw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RollPitchYaw-Info.plist"; sourceTree = "<group>"; };
+		3B8C6106191522D2009F4AD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B8C6108191522D2009F4AD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B8C610A191522D2009F4AD3 /* RollPitchYaw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RollPitchYaw-Prefix.pch"; sourceTree = "<group>"; };
+		3B8C610B191522D2009F4AD3 /* RPYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPYAppDelegate.h; sourceTree = "<group>"; };
+		3B8C610C191522D2009F4AD3 /* RPYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPYAppDelegate.m; sourceTree = "<group>"; };
+		3B8C610F191522D2009F4AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B8C6111191522D2009F4AD3 /* RPYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPYViewController.h; sourceTree = "<group>"; };
+		3B8C6112191522D2009F4AD3 /* RPYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPYViewController.m; sourceTree = "<group>"; };
+		3B8C6114191522D2009F4AD3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B8C611A191522D2009F4AD3 /* RollPitchYawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollPitchYawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8C611B191522D2009F4AD3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3B8C6123191522D2009F4AD3 /* RollPitchYawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RollPitchYawTests-Info.plist"; sourceTree = "<group>"; };
+		3B8C6125191522D2009F4AD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B8C6127191522D2009F4AD3 /* RollPitchYawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollPitchYawTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B8C60F6191522D2009F4AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8C60FF191522D2009F4AD3 /* CoreGraphics.framework in Frameworks */,
+				3B8C6101191522D2009F4AD3 /* UIKit.framework in Frameworks */,
+				3B8C60FD191522D2009F4AD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8C6117191522D2009F4AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8C611C191522D2009F4AD3 /* XCTest.framework in Frameworks */,
+				3B8C611E191522D2009F4AD3 /* UIKit.framework in Frameworks */,
+				3B8C611D191522D2009F4AD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B8C60F0191522D2009F4AD3 = {
+			isa = PBXGroup;
+			children = (
+				3B8C6102191522D2009F4AD3 /* RollPitchYaw */,
+				3B8C6121191522D2009F4AD3 /* RollPitchYawTests */,
+				3B8C60FB191522D2009F4AD3 /* Frameworks */,
+				3B8C60FA191522D2009F4AD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B8C60FA191522D2009F4AD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B8C60F9191522D2009F4AD3 /* RollPitchYaw.app */,
+				3B8C611A191522D2009F4AD3 /* RollPitchYawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B8C60FB191522D2009F4AD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B8C60FC191522D2009F4AD3 /* Foundation.framework */,
+				3B8C60FE191522D2009F4AD3 /* CoreGraphics.framework */,
+				3B8C6100191522D2009F4AD3 /* UIKit.framework */,
+				3B8C611B191522D2009F4AD3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B8C6102191522D2009F4AD3 /* RollPitchYaw */ = {
+			isa = PBXGroup;
+			children = (
+				3B8C610B191522D2009F4AD3 /* RPYAppDelegate.h */,
+				3B8C610C191522D2009F4AD3 /* RPYAppDelegate.m */,
+				3B8C610E191522D2009F4AD3 /* Main.storyboard */,
+				3B8C6111191522D2009F4AD3 /* RPYViewController.h */,
+				3B8C6112191522D2009F4AD3 /* RPYViewController.m */,
+				3B8C6114191522D2009F4AD3 /* Images.xcassets */,
+				3B8C6103191522D2009F4AD3 /* Supporting Files */,
+			);
+			path = RollPitchYaw;
+			sourceTree = "<group>";
+		};
+		3B8C6103191522D2009F4AD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B8C6104191522D2009F4AD3 /* RollPitchYaw-Info.plist */,
+				3B8C6105191522D2009F4AD3 /* InfoPlist.strings */,
+				3B8C6108191522D2009F4AD3 /* main.m */,
+				3B8C610A191522D2009F4AD3 /* RollPitchYaw-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B8C6121191522D2009F4AD3 /* RollPitchYawTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B8C6127191522D2009F4AD3 /* RollPitchYawTests.m */,
+				3B8C6122191522D2009F4AD3 /* Supporting Files */,
+			);
+			path = RollPitchYawTests;
+			sourceTree = "<group>";
+		};
+		3B8C6122191522D2009F4AD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B8C6123191522D2009F4AD3 /* RollPitchYawTests-Info.plist */,
+				3B8C6124191522D2009F4AD3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B8C60F8191522D2009F4AD3 /* RollPitchYaw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8C612B191522D2009F4AD3 /* Build configuration list for PBXNativeTarget "RollPitchYaw" */;
+			buildPhases = (
+				3B8C60F5191522D2009F4AD3 /* Sources */,
+				3B8C60F6191522D2009F4AD3 /* Frameworks */,
+				3B8C60F7191522D2009F4AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollPitchYaw;
+			productName = RollPitchYaw;
+			productReference = 3B8C60F9191522D2009F4AD3 /* RollPitchYaw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B8C6119191522D2009F4AD3 /* RollPitchYawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8C612E191522D2009F4AD3 /* Build configuration list for PBXNativeTarget "RollPitchYawTests" */;
+			buildPhases = (
+				3B8C6116191522D2009F4AD3 /* Sources */,
+				3B8C6117191522D2009F4AD3 /* Frameworks */,
+				3B8C6118191522D2009F4AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B8C6120191522D2009F4AD3 /* PBXTargetDependency */,
+			);
+			name = RollPitchYawTests;
+			productName = RollPitchYawTests;
+			productReference = 3B8C611A191522D2009F4AD3 /* RollPitchYawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B8C60F1191522D2009F4AD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RPY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Six Five Software, LLC";
+				TargetAttributes = {
+					3B8C6119191522D2009F4AD3 = {
+						TestTargetID = 3B8C60F8191522D2009F4AD3;
+					};
+				};
+			};
+			buildConfigurationList = 3B8C60F4191522D2009F4AD3 /* Build configuration list for PBXProject "RollPitchYaw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B8C60F0191522D2009F4AD3;
+			productRefGroup = 3B8C60FA191522D2009F4AD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B8C60F8191522D2009F4AD3 /* RollPitchYaw */,
+				3B8C6119191522D2009F4AD3 /* RollPitchYawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B8C60F7191522D2009F4AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8C6115191522D2009F4AD3 /* Images.xcassets in Resources */,
+				3B8C6107191522D2009F4AD3 /* InfoPlist.strings in Resources */,
+				3B8C6110191522D2009F4AD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8C6118191522D2009F4AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8C6126191522D2009F4AD3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B8C60F5191522D2009F4AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8C610D191522D2009F4AD3 /* RPYAppDelegate.m in Sources */,
+				3B8C6109191522D2009F4AD3 /* main.m in Sources */,
+				3B8C6113191522D2009F4AD3 /* RPYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8C6116191522D2009F4AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8C6128191522D2009F4AD3 /* RollPitchYawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B8C6120191522D2009F4AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B8C60F8191522D2009F4AD3 /* RollPitchYaw */;
+			targetProxy = 3B8C611F191522D2009F4AD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B8C6105191522D2009F4AD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B8C6106191522D2009F4AD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B8C610E191522D2009F4AD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B8C610F191522D2009F4AD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B8C6124191522D2009F4AD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B8C6125191522D2009F4AD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B8C6129191522D2009F4AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B8C612A191522D2009F4AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B8C612C191522D2009F4AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RollPitchYaw/RollPitchYaw-Prefix.pch";
+				INFOPLIST_FILE = "RollPitchYaw/RollPitchYaw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B8C612D191522D2009F4AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RollPitchYaw/RollPitchYaw-Prefix.pch";
+				INFOPLIST_FILE = "RollPitchYaw/RollPitchYaw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3B8C612F191522D2009F4AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RollPitchYaw.app/RollPitchYaw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RollPitchYaw/RollPitchYaw-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RollPitchYawTests/RollPitchYawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3B8C6130191522D2009F4AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RollPitchYaw.app/RollPitchYaw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RollPitchYaw/RollPitchYaw-Prefix.pch";
+				INFOPLIST_FILE = "RollPitchYawTests/RollPitchYawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B8C60F4191522D2009F4AD3 /* Build configuration list for PBXProject "RollPitchYaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8C6129191522D2009F4AD3 /* Debug */,
+				3B8C612A191522D2009F4AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8C612B191522D2009F4AD3 /* Build configuration list for PBXNativeTarget "RollPitchYaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8C612C191522D2009F4AD3 /* Debug */,
+				3B8C612D191522D2009F4AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B8C612E191522D2009F4AD3 /* Build configuration list for PBXNativeTarget "RollPitchYawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8C612F191522D2009F4AD3 /* Debug */,
+				3B8C6130191522D2009F4AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B8C60F1191522D2009F4AD3 /* Project object */;
+}
