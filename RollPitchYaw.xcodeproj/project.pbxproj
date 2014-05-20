@@ -457,6 +457,7 @@
 				3B8C612D191522D2009F4AD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B8C612E191522D2009F4AD3 /* Build configuration list for PBXNativeTarget "RollPitchYawTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				3B8C6130191522D2009F4AD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
